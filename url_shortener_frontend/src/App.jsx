@@ -102,7 +102,7 @@ export default function UrlShortener() {
         <br />
         M23CSA506
         <br />
-        Assignment 1
+        Assignment 2
         <br />
         CSL7510 Virtualization and Cloud Computing
       </footer>
