@@ -7,7 +7,7 @@ export default function UrlShortener() {
   const [shortenedUrl, setShortenedUrl] = useState(null);
   const [allUrls, setAllUrls] = useState([]);
   const [error, setError] = useState(null);
-  const BACKEND_URL = "http://192.168.100.4:5000";
+  const BACKEND_URL = "/api";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
