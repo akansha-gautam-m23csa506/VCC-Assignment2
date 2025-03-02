@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request, redirect
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://192.168.100.5:5173"}})
+CORS(app, resources={r"/*": {"origins": ["http://34.93.82.237"]}})
 
 shortened_urls = {}
 
